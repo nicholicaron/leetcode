@@ -1,0 +1,1 @@
+The focus of week 3 is on non-linear data structures like trees, graphs and heaps. You should be familiar with the various tree traversal (in-order, pre-order, post-order) algorithms and graph traversal algorithms such as breadth-first search and depth-first search. Using more advanced graph algorithms (Dijkstra's and Floyd-Warshall) is quite rare and usually not necessary.
