@@ -1,0 +1,1 @@
+A mix of easy and medium questions on **arrays and strings**. Arrays and strings are the most common types of questions to be found in interviews; gaining familiarity with them will help in building strong fundamentals to better handle tougher questions.
