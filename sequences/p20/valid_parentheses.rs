@@ -24,14 +24,14 @@ fn is_valid(s: String) -> bool {
     }
     // if there are still elements on the stack, there are more opening than closing parentheses,
     // and hence the string is invalid
-    return stack.is_empty();
+    stack.is_empty()
 }
 
 fn main() {
     let test1 = "()[]{}".to_string(); // true
     let test2 = "(}".to_string(); // false
     println!(
-        "Test case 1: {}\n Test case 2: {}",
+        "Test case 1: {}\nTest case 2: {}",
         is_valid(test1),
         is_valid(test2)
     );
