@@ -3,7 +3,8 @@
 //
 // let's make a stack on top of a vec (as opposed to a linked list) because vectors are laid out
 // contiguously in memory, so traversal is efficient because they better lend themselves to caching
-// Insertion and deletion in the back of the collection takes amortized constant time because the CPU does not have to recall the row address selection demultiplexer as frequently (i think lol).
+// Insertion and deletion in the back of the collection takes amortized constant time because the CPU 
+// does not have to recall the row address selection demultiplexer as frequently (i think lol).
 
 fn is_valid(s: String) -> bool {
     let mut stack = Vec::new();
