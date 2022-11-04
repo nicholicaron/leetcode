@@ -1,4 +1,118 @@
 # Rust dir metadata, executables, etc. 
-./*/*/*_rs/target/
-./*/*/*_rs/release/
+./sequences/p1/two_sum_rs/target/
+./sequences/p15/three_sum_rs/target/
+./sequences/p20/valid_parentheses_rs/target/
+./sequences/p33/search_in_rotated_sorted_array_rs/target/
+./sequences/p49/group_anagrams_rs/target/
+./sequences/p53/maximum_subarray_rs/target/
+./sequences/p56/merge_intervals_rs/target/
+./sequences/p121/stox_rs/target
+./sequences/p152/maximum_product_subarray_rs/target/
+./sequences/p217/contains_duplicate_rs/target/
+./sequences/p238/product_of_array_except_self_rs/target/
+./sequences/p242/anagram_rs/target
+
+./Data Strucutres/p3/longest_substring_without_repeating_characters_rs/target/
+./Data Strucutres/p11/container_with_most_water_rs/target/
+./Data Strucutres/p19/remove_nth_node_from_end_of_list_rs/target/
+./Data Strucutres/p76/minimum_window_substring_rs/target/
+./Data Strucutres/p153/find_minimum_in_rotated_sorted_array_rs/target/
+./Data Strucutres/p200/number_of_islands_rs/target/
+./Data Strucutres/p417/pacific_atlantic_water_flow_rs/target/
+./Data Strucutres/p424/longest_repeating_character_replacement_rs/target/
+./Data Strucutres/p647/palindromic_substrings_rs/target/
+
+./Non-linear Data Structures/p98/validate_binary_search_tree_rs/target/
+./Non-linear Data Structures/p100/same_tree_rs/target/
+./Non-linear Data Structures/p102/binary_tree_level_order_traversal_rs/target/
+./Non-linear Data Structures/p104/maximum_depth_of_binary_tree_rs/target/
+./Non-linear Data Structures/p105/construct_binary_tree_from_preorder_and_inorder_traversal_rs/target/
+./Non-linear Data Structures/p124/binary_tree_maximum_path_sum_rs/target/
+./Non-linear Data Structures/p133/clone_graph_rs/target/
+./Non-linear Data Structures/p207/course_schedule_rs/target/
+./Non-linear Data Structures/p226/invert_binary_tree_rs/target/
+./Non-linear Data Structures/p297/serialize_and_deserialize_binary_tree_rs/target/
+./Non-linear Data Structures/p347/top_k_frequent_elements_rs/target/
+./Non-linear Data Structures/p435/non_overlapping_intervals_rs/target/
+
+./More Data Structures/p23/merge_k_sorted_lists_rs/target/
+./More Data Structures/p57/insert_interval_rs/target/
+./More Data Structures/p128/longest_consecutive_sequence_rs/target/
+./More Data Structures/p208/implement_trie_prefix_tree_rs/target/
+./More Data Structures/p211/add_and_search_word_rs/target/
+./More Data Structures/p212/word_search_ii_rs/target/
+./More Data Structures/p230/kth_smallest_element_in_a_bst_rs/target/
+./More Data Structures/p235/lowest_common_ancestor_of_a_binary_search_tree_rs/target/
+./More Data Structures/p295/find_median_from_data_stream_rs/target/
+./More Data Structures/p572/subtree_of_another_tree_rs/target/
+
+./Dynamic Programming/p55/jump_game_rs/target/
+./Dynamic Programming/p62/unique_paths_rs/target/
+./Dynamic Programming/p70/climbing_stairs_rs/target/
+./Dynamic Programming/p91/decode_ways_rs/target/
+./Dynamic Programming/p139/word_break_rs/target/
+./Dynamic Programming/p198/house_robber_rs/target/
+./Dynamic Programming/p213/house_robber_ii_rs/target/
+./Dynamic Programming/p300/longest_increasing_subsequence_rs/target/
+./Dynamic Programming/p322/coin_change_rs/target/
+./Dynamic Programming/p377/combination_sum_iv_rs/target/
+
+# Rust build artifacts
+./sequences/p1/two_sum_rs/release/
+./sequences/p15/three_sum_rs/release/
+./sequences/p20/valid_parentheses_rs/release/
+./sequences/p33/search_in_rotated_sorted_array_rs/release/
+./sequences/p49/group_anagrams_rs/release/
+./sequences/p53/maximum_subarray_rs/release/
+./sequences/p56/merge_intervals_rs/release/
+./sequences/p121/stox_rs/release
+./sequences/p152/maximum_product_subarray_rs/release/
+./sequences/p217/contains_duplicate_rs/release/
+./sequences/p238/product_of_array_except_self_rs/release/
+./sequences/p242/anagram_rs/release
+
+./Data Strucutres/p3/longest_substring_without_repeating_characters_rs/release/
+./Data Strucutres/p11/container_with_most_water_rs/release/
+./Data Strucutres/p19/remove_nth_node_from_end_of_list_rs/release/
+./Data Strucutres/p76/minimum_window_substring_rs/release/
+./Data Strucutres/p153/find_minimum_in_rotated_sorted_array_rs/release/
+./Data Strucutres/p200/number_of_islands_rs/release/
+./Data Strucutres/p417/pacific_atlantic_water_flow_rs/release/
+./Data Strucutres/p424/longest_repeating_character_replacement_rs/release/
+./Data Strucutres/p647/palindromic_substrings_rs/release/
+
+./Non-linear Data Structures/p98/validate_binary_search_tree_rs/release/
+./Non-linear Data Structures/p100/same_tree_rs/release/
+./Non-linear Data Structures/p102/binary_tree_level_order_traversal_rs/release/
+./Non-linear Data Structures/p104/maximum_depth_of_binary_tree_rs/release/
+./Non-linear Data Structures/p105/construct_binary_tree_from_preorder_and_inorder_traversal_rs/release/
+./Non-linear Data Structures/p124/binary_tree_maximum_path_sum_rs/release/
+./Non-linear Data Structures/p133/clone_graph_rs/release/
+./Non-linear Data Structures/p207/course_schedule_rs/release/
+./Non-linear Data Structures/p226/invert_binary_tree_rs/release/
+./Non-linear Data Structures/p297/serialize_and_deserialize_binary_tree_rs/release/
+./Non-linear Data Structures/p347/top_k_frequent_elements_rs/release/
+./Non-linear Data Structures/p435/non_overlapping_intervals_rs/release/
+
+./More Data Structures/p23/merge_k_sorted_lists_rs/release/
+./More Data Structures/p57/insert_interval_rs/release/
+./More Data Structures/p128/longest_consecutive_sequence_rs/release/
+./More Data Structures/p208/implement_trie_prefix_tree_rs/release/
+./More Data Structures/p211/add_and_search_word_rs/release/
+./More Data Structures/p212/word_search_ii_rs/release/
+./More Data Structures/p230/kth_smallest_element_in_a_bst_rs/release/
+./More Data Structures/p235/lowest_common_ancestor_of_a_binary_search_tree_rs/release/
+./More Data Structures/p295/find_median_from_data_stream_rs/release/
+./More Data Structures/p572/subtree_of_another_tree_rs/release/
+
+./Dynamic Programming/p55/jump_game_rs/release/
+./Dynamic Programming/p62/unique_paths_rs/release/
+./Dynamic Programming/p70/climbing_stairs_rs/release/
+./Dynamic Programming/p91/decode_ways_rs/release/
+./Dynamic Programming/p139/word_break_rs/release/
+./Dynamic Programming/p198/house_robber_rs/release/
+./Dynamic Programming/p213/house_robber_ii_rs/release/
+./Dynamic Programming/p300/longest_increasing_subsequence_rs/release/
+./Dynamic Programming/p322/coin_change_rs/release/
+./Dynamic Programming/p377/combination_sum_iv_rs/release/
 
