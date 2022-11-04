@@ -1,0 +1,1 @@
+/home/c/dev/projects/leetcode/sequences/p238/product_of_array_except_self_rs/target/debug/product_of_array_except_self_rs: /home/c/dev/projects/leetcode/sequences/p238/product_of_array_except_self_rs/src/main.rs
