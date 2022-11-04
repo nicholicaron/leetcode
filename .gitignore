@@ -1,5 +1,4 @@
-# Rust metadata, executables, etc. 
-./sequences/p15/rust/three_sum/target/
-./sequences/p15/rust/three_sum/debug/
-./sequences/p15/rust/three_sum/release/
+# Rust dir metadata, executables, etc. 
+./*/*/*_rs/target/
+./*/*/*_rs/release/
 

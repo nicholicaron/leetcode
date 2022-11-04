@@ -1,5 +1,5 @@
-/* Takes an array of integers and an integer target value as arguments
-   Returns the unique pair of integers in the array which sum to the target value  
+// Takes an array of integers and an integer target value as arguments
+// Returns the unique pair of integers in the array which sum to the target value  
 
 use std::collections::HashMap;
 
