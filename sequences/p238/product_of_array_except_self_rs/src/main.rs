@@ -1,21 +1,33 @@
 // Algorithm must be O(n) time 
 // Follow up: O(1) extra space complexity (output array does not count as extra space for space complexity analysis) and do not use division operator
 
+// 6ms runtime -- 99.09th percentile
+
 fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
     let mut output: Vec<_> = nums
-        // .iter() transforms the vector into an iterator
+        // Iterates over references to each element in clone of nums
         .iter()
-        // 1 is the initial value
-        // Scan is an iterator adaptor that applies a closure to each element of the iterator and yields the intermediate results.
-        // The closure takes two arguments: the first is the previous value of the closure, and the second is the current value of the iterator
+        // Seed scan internal state with 1
+        // Replace state with the product of the state and the current value
+        // Yield the state (returns an iterator of Option<total_product>)
         .scan(1, |state, num| Some(std::mem::replace(state, *state * num)))
-        // collect() transforms the iterator into back into a vector
+        // collect() consumes the iterator and resolves all Option<T>'s to return a vector of T
         .collect();
+
+
     nums
+        // Iterate over references to each element in nums
         .iter()
+        // reverse the direction of the iterator
+        // We want to compare the reverse iteration, with our previous iteration to detect zeros
         .rev()
+        // Seed scan internal state with 1
+        // Replace state with the product of the state and the current value
+        // Yield the state (returns an iterator of Option<total_product>)
         .scan(1, |state, num| Some(std::mem::replace(state, *state * num)))
+        // zip() returns an iterator of tuples of the form (Option<T> *from output, taken as mutable reference, then reversed*, Option<T> *from reverse iteration*)
         .zip(output.iter_mut().rev())
+        // For each element in the now zipped iterator, replace the value in output with the product of the two Option<T> values
         .for_each(|(x, y)| *y *= x);
 
     output
