@@ -3,6 +3,8 @@
 
 // 6ms runtime -- 99.09th percentile
 
+// printf DEBUG iterators using inspect iterator adapter
+
 fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
     let mut output: Vec<_> = nums
         // Iterates over references to each element in clone of nums
