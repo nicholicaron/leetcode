@@ -13,4 +13,4 @@ In week 1, we will warm up by doing a mix of easy and medium questions on **arra
 | p152		| Maximum Product Subarray |    |	 |	|    |  
 | p217		| Contains Duplicate | Done |   |	 |	| Done| 
 | p238		| Product of Array Except Self | Done | | | | | 
-| p242|		| Valid Anagram	| Done	|	|	 |	|     |
+| p242		| Valid Anagram	| Done	|	|	 |	|     |
